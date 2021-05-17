@@ -21,6 +21,7 @@ namespace ASPNET_Filters
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    
                 });
     }
 }
